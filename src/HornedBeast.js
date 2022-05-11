@@ -2,6 +2,9 @@ import React from 'react';
 class HornedBeast extends React.Component {
     constructor(props){
        super(props);
+       this.state = {
+           clicks: 0
+       };
     }
 
     render () {
